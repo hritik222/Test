@@ -1,0 +1,237 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#header {
+    background: #000;
+    width: 100%;
+    height: 45px;
+    padding: 1px;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+
+.logo img {
+    width: 152px;
+}
+
+.navigation {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0px;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px 8px;
+    transition: 0.5s;
+    font-family: 'Roboto', sans-serif;
+}
+
+img.home-icon {
+    filter: invert(1);
+    width: 18px;
+}
+
+.navigation ul li:hover a {
+    background-color: red;
+    color: white;
+}
+
+.bg-red {
+    background-color: red;
+    color: white;
+}
+
+.bg-red:hover {
+    background-color: rgb(250, 74, 74) !important;
+}
+
+.Calculator-icon {
+    filter: invert(1);
+    vertical-align: top;
+}
+
+.calcu {
+    background: #020056;
+}
+
+.calcu:hover {
+    background: #17156e !important;
+}
+
+/* Header section end here */
+
+#banner {
+    position: relative;
+    background: url(/assets/images/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.black-bg {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(64 64 64 / 43%);
+}
+
+.boxs {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+/* left box */
+
+.left-bx {
+    background: rgb(48 47 47 / 92%);
+    padding: 1em;
+    width: 370px;
+    height: 320px;
+}
+
+.heading-txt {
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.heading-txt h1 {
+    font-size: 2em;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.offer-bx {
+    border: 2px solid #fff;
+    position: relative;
+    width: 300px;
+    margin: auto;
+}
+
+h4.offer-head {
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    font-size: 16px;
+    color: blue;
+    padding: 2px 0px;
+}
+
+.offer-list li {
+    font-size: 12px;
+    line-height: 30px;
+    color: #fff;
+}
+
+button.offer {
+    border: none;
+    outline: none;
+    padding: 3px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background: #00000094;
+    margin-left: 1em;
+}
+
+.rate-bx {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.rate-bx h1 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.rate-bx p {
+    margin: 0;
+    font-size: 11px;
+}
+
+.ratebx img {
+    width: 12px;
+}
+
+/* Right Box  */
+
+.right-bx {
+    width: 300px;
+    margin-left: auto;
+}
+
+.number {
+    background: #000000b8;
+    padding: 7px 0px;
+}
+
+.number p {
+    color: #fff;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.form {
+    height: 320px;
+    background: #dddfeb;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.form h3 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 1em;
+    color: #000;
+}
+
+.input-bx {
+    border: none;
+    outline: none;
+    background: white;
+    padding: 5px 10px;
+    width: 250px;
+    font-size: 14px;
+}
+button.btn {
+    background: #b10e0e;
+    padding: 5px 10px;
+    width: 250px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}

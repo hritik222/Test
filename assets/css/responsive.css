@@ -1,0 +1,148 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+    .navigation {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 45px;
+        right: 0px;
+        background: #000;
+        width: 250px;
+        height: 450px;
+        transition: 0.5s;
+    }
+
+    .navigation ul {
+        list-style: none;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .navigation ul li {
+        display: block;
+        margin-bottom: 1em;
+    }
+
+    #menu {
+        display: block;
+        filter: invert(1);
+        position: absolute;
+        right: 25px;
+        top: 8px;
+    }
+
+
+    .openit {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 45px;
+        right: -400px;
+        background: #000;
+        width: 250px;
+        height: 450px;
+        transition: 0.5s;
+    }
+
+    .boxs {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+    }
+
+    .left-bx {
+        background: rgb(48 47 47 / 92%);
+        padding: 1em;
+        width: 290px;
+        height: 320px;
+        margin-bottom: 2em;
+    }
+
+    .heading-txt {
+        padding: 0px 70px;
+        text-align: center;
+    }
+
+    .heading-txt h1 {
+        font-size: 0.7em;
+        font-weight: 700;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    h4.offer-head {
+        width: 100%;
+        background: #fff;
+        text-align: center;
+        font-size: 14px;
+        color: blue;
+        padding: 2px 0px;
+    }
+    .offer-bx {
+        border: 2px solid #fff;
+        position: relative;
+        width: 250px;
+        margin: auto;
+    }
+
+    .offer-list li {
+        font-size: 11px;
+        line-height: 30px;
+        color: #fff;
+    }
+    button.offer {
+        border: none;
+        outline: none;
+        padding: 4px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #fff;
+        background: #00000094;
+        margin-left: 1em;
+    }
+
+    .right-bx {
+        width: 300px;
+        margin: 0;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .navigation ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 4px 5px;
+        transition: 0.5s;
+        font-family: 'Roboto', sans-serif;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    .navigation ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 4px 5px;
+        transition: 0.5s;
+        font-family: 'Roboto', sans-serif;
+    }
+}

@@ -25,6 +25,7 @@
                         </div>
                     </div>
                     <div class="col-9">
+                        <img src="assets/images/menu-icon.png" alt="" id="menu">
                         <nav class="navigation">
                             <ul>
                                 <li><a href="#">
@@ -54,7 +55,7 @@
                 <div class="boxs">
                     <div class="container">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col">
                                 <div class="left-bx">
                                     <div class="heading-txt">
                                         <h1> Best Web Designing Company in Noida</h1>
@@ -85,7 +86,7 @@
                                 </div>
                             </div>
                             <!-- Right box -->
-                            <div class="col-6">
+                            <div class="col">
                                 <div class="right-bx">
                                     <div class="number">
                                         <p> Call Now: &nbsp; +91-8860080044</p>
@@ -110,7 +111,16 @@
 
     </body>
     <!-- Here we are addding javaScript file  -->
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/jQuery.js"></script>
+
+    <!-- <script src="assets/js/main.js"></script> -->
+    <script src="assets/PlugIn/jQuery.js"></script>
+
+    <script>
+		$(document).ready(function() {
+			$("#menu").click(function() {
+				$(".navigation").toggleClass("openit");
+			});
+		});
+	</script>
 
 </html>

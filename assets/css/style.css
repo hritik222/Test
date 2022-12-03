@@ -26,6 +26,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.5s;
 }
 
 .navigation ul {
@@ -234,4 +235,14 @@ button.btn {
     color: #fff;
     font-size: 14px;
     font-weight: 600;
+}
+
+#menu {
+    display: none;
+}
+
+
+.openit {
+    display: none;
+    transition: 0.5s;
 }
